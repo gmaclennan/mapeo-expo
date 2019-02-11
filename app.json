@@ -23,7 +23,21 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.mapeomobile",
+      "publishBundlePath": "ios/mapeo/Supporting/shell-app.bundle",
+      "publishManifestPath": "ios/mapeo/Supporting/shell-app-manifest.json"
+    },
+    "isDetached": true,
+    "detach": {
+      "iosExpoViewUrl": "https://s3.amazonaws.com/exp-exponent-view-code/ios-v2.10.2-sdk32.0.0-c59c23cd-1d49-49d2-a633-d03f9d554cf6.tar.gz",
+      "androidExpoViewUrl": "https://s3.amazonaws.com/exp-exponent-view-code/android-v2.10.5-sdk32.0.0-cfdf42e8-f9b5-4ddd-84fd-2f2aacffe2c1.tar.gz"
+    },
+    "scheme": "exp250c0369fd594ab9b6addfee5bb6b1a8",
+    "android": {
+      "package": "com.mapeomobile",
+      "publishBundlePath": "android/app/src/main/assets/shell-app.bundle",
+      "publishManifestPath": "android/app/src/main/assets/shell-app-manifest.json"
     }
   }
 }
