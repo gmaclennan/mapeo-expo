@@ -1,7 +1,97 @@
 node_modules/**/*
-.expo/*
 npm-debug.*
 *.jks
 *.p12
 *.key
 *.mobileprovision
+
+# Expo
+#
+android/app/src/main/assets/shell-app-manifest.json
+android/app/src/main/assets/shell-app.bundle
+ios/mapeo/Supporting/shell-app-manifest.json
+ios/mapeo/Supporting/shell-app.bundle
+ios/mapeo/Supporting/EXShell.plist.bak
+ios/mapeo/Supporting/EXShell.json
+.expo/*
+
+
+# OSX
+#
+.DS_Store
+
+# Xcode
+#
+build/
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata
+*.xccheckout
+*.moved-aside
+DerivedData
+*.hmap
+*.ipa
+*.xcuserstate
+project.xcworkspace
+
+# Android/IntelliJ
+#
+build/
+.idea
+.gradle
+local.properties
+*.iml
+android/**/.project
+android/**/.settings
+android/**/.classpath
+
+# node.js
+#
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# BUCK
+buck-out/
+\.buckd/
+*.keystore
+
+# fastlane
+#
+# It is recommended to not store the screenshots in the git repo. Instead, use fastlane to re-generate the
+# screenshots whenever they are needed.
+# For more information about the recommended setup visit:
+# https://docs.fastlane.tools/best-practices/source-control/
+
+*/fastlane/report.xml
+*/fastlane/Preview.html
+*/fastlane/screenshots
+
+# Secrets
+#
+env.json
+.env
+.gitsecret/keys/random_seed
+
+# react-native-node app
+#
+/rnnodeapp
+/android/app/src/main/res/raw/rnnodebundle
+
+# Benchmarks
+#
+/benchmark/test_servers
+/benchmark/screenshot*.png
+
+# Code editors
+#
+/.vscode
+
+# Bundle artifact
+*.jsbundle
